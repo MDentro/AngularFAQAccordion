@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Desktop
 
-![screenshot](./assets/desktop.jpg)
+![screenshot](./assets/desktop.JPG)
 
 ## Mobile
 
-![screenshot](./assets/mobile.jpg)
+![screenshot](./assets/mobile.JPG)
 
 ## Development server
 
