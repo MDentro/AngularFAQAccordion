@@ -1,0 +1,40 @@
+.question-section {
+  height: auto;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.question {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.question:hover {
+  color: #ad28eb;
+}
+
+.answer {
+  color: hsl(292, 16%, 49%);
+  transition: all 0.5s;
+}
+
+.expand-icon {
+  cursor: pointer;
+}
+
+.collapse-answer {
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.expand-answer {
+  height: auto;
+  padding: 10px 0 10px 0;
+}

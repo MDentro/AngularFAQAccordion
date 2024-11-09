@@ -1,0 +1,17 @@
+<div class="question-section">
+  <div class="question-container" (click)="expandAnswer()">
+    <p class="question">{{ question }}</p>
+    <img
+      class="expand-icon"
+      [src]="expand ? 'icon-minus.svg' : 'icon-plus.svg'"
+    />
+  </div>
+
+  <p
+    class="answer expand-answer"
+    [class.expand-answer]="expand === true"
+    [class.collapse-answer]="expand === false"
+  >
+    {{ answer }}
+  </p>
+</div>
